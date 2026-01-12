@@ -1,15 +1,14 @@
 # Computer Vision Libraries
-mediapipe==0.10.9
-insightface==0.7.3
-opencv-python==4.9.0.80
+mediapipe==0.10.31
+opencv-python==4.10.0.84
 onnxruntime-gpu==1.17.0  # For InsightFace GPU acceleration, use onnxruntime for CPU only
 
-# Scientific Computing
-numpy==1.24.3
-scipy==1.11.4
+# Scientific Computing  
+numpy==1.26.4  # Python 3.12 compatible
+scipy==1.13.0
 
-# Data Storage
-pickle-mixin==1.0.2
+# Face Recognition - install after other dependencies
+insightface==0.7.3
 
 # Utilities
 tqdm==4.66.1
