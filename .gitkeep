@@ -1,0 +1,2 @@
+# This file ensures data directories are tracked by git
+# The actual content directories are in .gitignore

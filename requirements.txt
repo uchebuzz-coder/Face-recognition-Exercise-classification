@@ -1,0 +1,15 @@
+# Computer Vision Libraries
+mediapipe==0.10.9
+insightface==0.7.3
+opencv-python==4.9.0.80
+onnxruntime-gpu==1.17.0  # For InsightFace GPU acceleration, use onnxruntime for CPU only
+
+# Scientific Computing
+numpy==1.24.3
+scipy==1.11.4
+
+# Data Storage
+pickle-mixin==1.0.2
+
+# Utilities
+tqdm==4.66.1
